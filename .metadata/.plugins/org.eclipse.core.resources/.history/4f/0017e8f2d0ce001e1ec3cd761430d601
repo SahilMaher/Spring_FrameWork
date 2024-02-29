@@ -1,0 +1,30 @@
+package com.Refrencess.Autowiring.AutoWiring;
+
+public class AutoWired
+{
+	Address add;
+
+	public AutoWired(Address add) {
+		super();
+		this.add = add;
+	}
+
+	public Address getAdd() {
+		return add;
+	}
+
+	public void setAdd(Address add) {
+		this.add = add;
+	}
+
+	public AutoWired() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "AutoWired [add=" + add + "]";
+	}
+
+}

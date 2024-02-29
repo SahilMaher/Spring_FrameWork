@@ -1,0 +1,37 @@
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+    
+   <!--  this is our beans -->   
+   <bean class="com.Refrencess.Constructor_Injection.Constructor_Injection.Certi" name="c1">
+	   <constructor-arg  value="Java Devloper" />
+	  
+	    
+	   
+   </bean> 
+   <bean class="com.Refrencess.Constructor_Injection.Constructor_Injection.Emp" name="e1">
+	    <constructor-arg  value="52" type="int" />
+	   <constructor-arg  value="Bhagat" />
+	      <constructor-arg  >
+			  <list>
+				  <value>984755</value>
+				    <value>984755</value>
+				    
+
+			  </list>
+		  </constructor-arg>
+
+	   <constructor-arg  ref="c1" />
+	 
+	    
+	   
+   </bean>
+</beans>
+  

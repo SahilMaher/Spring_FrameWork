@@ -1,0 +1,46 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+    
+   <!--  this is our beans -->    
+
+    
+   <bean class="com.groupofcollection.group_of_collection.Emp" name="emp1">
+    	<property name="name" value="Sahil" />
+    		
+    	    	
+    	<property name="phone">
+			<list>
+				<value>74747</value>
+				<value>74747</value>
+				<value>74747</value>
+				
+			</list>
+    		
+    	</property>
+    	
+    	
+    	<property name="address">
+			<set>
+				<value>Porbandar</value>
+				<value>Rajkot</value>
+			</set>
+    		
+    	</property>
+    	<property name="cours">
+			<map>
+				<entry key="java" value="sem1" />
+				</map>
+				
+		
+    		
+    	</property>
+    
+    </bean>
+
+</beans>

@@ -1,0 +1,12 @@
+package com.Refrencess.Constructor_Injection.Constructor_Injection;
+
+public class Certi 
+{
+	private String name;
+	public Certi(String name)
+	{
+		super();
+		this.name=name;
+	}
+
+}
