@@ -1,0 +1,32 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+    
+   <!--  this is our beans -->    
+<context:annotation-config />
+       <bean class="AnotationAutoWired.AnotationAutoWired.Address" name="e1">
+	   <property name="city" value="Porbandar"/>
+ 	   <property name="state" value="Gujarat"/>
+    
+    </bean>
+     <bean class="AnotationAutoWired.AnotationAutoWired.Address" name="e2">
+	   <property name="city" value="Mumbai"/>
+ 	   <property name="state" value="Maharashtra"/>
+    
+    </bean> 
+    <bean class="AnotationAutoWired.AnotationAutoWired.Address" name="e3">
+	   <property name="city" value="Jaipur"/>
+ 	   <property name="state" value="Rajsthan"/>
+    
+    </bean> 
+    
+  
+   <bean class=" AnotationAutoWired.AnotationAutoWired.AnoationAutoWired1" name="a1" />
+    	
+
+</beans>

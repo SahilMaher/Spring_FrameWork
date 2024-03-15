@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Eclips\AnotationAutoWired\src\main\java\AnotationAutoWired\AnotationAutoWired\App.java"/>
+			<item value="E:\Eclips\AutoWiring\src\main\java\com\Refrencess\Autowiring\AutoWiring\App.java"/>
 			<item value="E:\Eclips\group_of_collection\src\main\java\com\groupofcollection\group_of_collection\Emp.java"/>
 			<item value="E:\Eclips\springcore\src\main\java\com\springcore\springcore\App.java"/>
 			<item value="E:\Eclips\Spring_Practical"/>
@@ -28,6 +30,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Stereotype.Stereotype"/>
+			<item value="com.StandAloneCollection"/>
+			<item value="com.AnotationAutoWiredExmpl"/>
+			<item value="AnotationAutoWired.AnotationAutoWired"/>
 			<item value="com.Refrencess.Autowiring.AutoWiring"/>
 			<item value="com.Refrencess.Constructor_Injection.Constructor_Injection"/>
 			<item value="com.Refrencess.Refrences"/>
@@ -35,6 +41,10 @@
 			<item value="com.springcore.springcore"/>
 		</list>
 		<list key="groupId">
+			<item value="Stereotype"/>
+			<item value="StandAloneCollection"/>
+			<item value="AnotationAutoWiredExmpl"/>
+			<item value="AnotationAutoWired"/>
 			<item value="com.Refrencess.Autowiring"/>
 			<item value="com.Refrencess.Constructor_Injection"/>
 			<item value="com.Refrencess"/>
@@ -42,6 +52,10 @@
 			<item value="com.springcore"/>
 		</list>
 		<list key="artifactId">
+			<item value="Stereotype"/>
+			<item value="StandAloneCollection"/>
+			<item value="AnotationAutoWiredExmpl"/>
+			<item value="AnotationAutoWired"/>
 			<item value="AutoWiring"/>
 			<item value="Constructor_Injection"/>
 			<item value="Refrences"/>
